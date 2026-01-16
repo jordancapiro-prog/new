@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" href="favicon.svg">
+<title>USA Travel & Food Guide — Your Ultimate Travel Challenge</title>
+<meta name="description" content="Challenge your taste buds with daily USA Travel & Food Guide guides! Read for free, improve your itinerary, and become a travel master, right in your browser.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+@media (max-width: 768px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr !important; }
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Home"><img src="assets/img/logo.svg" alt="USA Travel & Food Guide icon"><span>USA Travel & Food Guide</span></a>
+    <div class="menu" data-nav-menu>
+      <a href="index.html" style='opacity:1;font-weight:800'>Home</a>
+      <a href="game.html" >Destinations</a>
+      <a href="leaderboard.html" >Top Rated</a>
+      <a href="about.html" >About</a>
+      <a href="blog.html" >Food Guide</a>
+      <a href="faq.html" >FAQ</a>
+      <a href="privacy.html" >Privacy</a>
+      <a href="terms.html" >Terms</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="right"><a class="btn ghost" data-nav-toggle>Menu</a><a class="btn" href="game.html">Destinations</a></div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Explore the USA!</h1>
+    <p>Welcome to your daily travel challenge! USA Travel & Food Guide is your home for engaging travel guides. Sharpen your itinerary and get ready to taste the food!</p>
+    <a class="btn" href="game.html">Explore Now</a>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="grid-3">
+    <div class="card">
+      <h3>Daily Travel Boost</h3>
+      <p>Our guides are designed for quick, engaging fun. Get your daily travel workout, instantly, on any device.</p>
+    </div>
+    <div class="card">
+      <h3>Instant Travel Plans</h3>
+      <p>No downloads, no installations. Read challenging City and Food guides right from your browser. Your path to mastery starts here.</p>
+    </div>
+    <div class="card">
+      <h3>Become a Travel Master</h3>
+      <p>Practice your planning, expand your horizons, and beat your personal best. Rise through the ranks with skill, not luck.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="card">
+    <div class="grid-2" style="align-items:center;">
+      <div>
+        <span class="badge">Featured Destination</span>
+        <h2 style="margin-top:12px;">Daily NYC Challenge</h2>
+        <p>The ultimate test of appetite and walking awaits. We provide the most engaging travel guides you need to conquer the daily challenge, beat your friends' trips, and become a travel legend. Every day is a new guide!</p>
+        <div class="kudos" style="margin:16px 0;">
+          <span class="pill">Daily New Guides</span>
+          <span class="pill">Itinerary Builder</span>
+          <span class="pill">Global Ratings</span>
+        </div>
+        <a class="btn" href="leaderboard.html">View Top Rated</a>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1519671482727-3493a45c9f83?q=80&w=2070&auto=format&fit=crop" alt="A person solving a word puzzle on a screen" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Travel Guide Insights</h2>
+  <p>Tips and strategies from our experts to help you master USA Travel & Food Guide.</p>
+  <div class="grid-3" style="margin-top:18px;">
+    <div class="card blog-card">
+      <h3>Mastering the Art of BBQ</h3>
+      <p class="excerpt">We break down effective strategies that top foodies use to find the best BBQ at once.</p>
+      <a class="btn ghost read" href="posts/we-rotations.html">Read Article</a>
+    </div>
+    <div class="card blog-card">
+      <h3>The Ultimate NYC Pizza Guide</h3>
+      <p class="excerpt">From choosing your first slice to narrowing down possibilities, we cover essential strategies to make you a Pizza champion.</p>
+      <a class="btn ghost read" href="posts/conduit-guide.html">Read Article</a>
+    </div>
+    <div class="card blog-card">
+      <h3>Analyzing Common Food Patterns</h3>
+      <p class="excerpt">We dive into common flavor profiles and menu structures to help you eat faster and smarter.</p>
+      <a class="btn ghost read" href="posts/s21-meta.html">Read Article</a>
+    </div>
+  </div>
+</section>
+
+<section class="section container" id="contact">
+  <div class="card">
+    <h3>Connect With Us</h3>
+    <p>Have questions, feedback, or a great idea for a new travel guide? Drop us a line. We're always ready to connect with fellow travel enthusiasts.</p>
+    <form id="contact-form" style="margin-top:16px;display:grid;gap:12px;">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+    <div>© 2025 USA Travel & Food Guide. All rights reserved.</div>
+    <div style="display:flex;gap:12px;align-items:center"><span class="badge">Daily • Engaging • Free</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
